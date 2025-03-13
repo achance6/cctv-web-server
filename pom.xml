@@ -126,6 +126,15 @@
           </compilerArgs>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>jib-maven-plugin</artifactId>
+        <configuration>
+          <to>
+            <image>442426851957.dkr.ecr.us-east-1.amazonaws.com/cctv/cctv-web-server</image>
+          </to>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
